@@ -1,0 +1,34 @@
+{
+	"locations": [
+		{
+			"id": "alias",
+			"name": "Alias",
+			"cuisine": ["Flammkuchen", "Italienisch"]
+		},
+		{
+			"id": "dlounge",
+			"name": "D'Lounge",
+			"cuisine": ["Pizza", "Italienisch"]
+		},
+		{
+			"id": "grillandchill",
+			"name": "Grill & Chill",
+			"cuisine": ["Steak", "Burger", "Herzhaft"]
+		},
+		{
+			"id": "kyoto",
+			"name": "Kyoto Sunrise Sushi",
+			"cuisine": ["Sushi", "Asiatisch"]
+		},
+		{
+			"id": "kugeln",
+			"name": "Zu den 3 goldenen Kugeln",
+			"cuisine": ["Schnitzel", "Österreichisch", "Herzhaft"]
+		},
+		{
+			"id": "sajado",
+			"name": "Sajado",
+			"cuisine": ["Spieße", "Tischgrill", "Asiatisch"]
+		}
+	]
+}
