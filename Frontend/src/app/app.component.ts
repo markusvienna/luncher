@@ -12,10 +12,10 @@ export class AppComponent {
   constructor(
     private firebaseService: FirebaseServiceService
   ) {
-
+    console.log(this.firebaseService.getLocations());
   }
 
   ngInit() {
-    console.log(this.firebaseService.getLocations());
+    
   }
 }
