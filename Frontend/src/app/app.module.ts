@@ -8,6 +8,7 @@ import { MatchViewComponent } from './components/match-view/match-view.component
 import { StatusPageComponent } from './components/status-page/status-page.component';
 import { SwipeViewComponent } from './components/swipe-view/swipe-view.component';
 import { HttpClientModule } from '@angular/common/http';
+import { LocationViewComponent } from './components/swipe-view/location-view/location-view.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { HttpClientModule } from '@angular/common/http';
     MatchViewComponent,
     StatusPageComponent,
     SwipeViewComponent,
+    LocationViewComponent,
   ],
   imports: [
     BrowserModule,
