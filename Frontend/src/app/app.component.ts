@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FirebaseServiceService } from './firebase-service.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Luncher';
+
+  constructor(
+    private firebaseService: FirebaseServiceService
+  ) {
+
+  }
+
+  ngInit() {
+    console.log(this.firebaseService.getLocations());
+  }
 }
