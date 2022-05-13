@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "onesignal-ngx": "^1.0.1"
+  }
+}

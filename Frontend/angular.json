@@ -25,7 +25,8 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              "src/mock-data"
+              "src/mock-data",
+              "src/OneSignalSDKWorker.js"
             ],
             "styles": [
               "src/styles.scss"
