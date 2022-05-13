@@ -3,5 +3,6 @@
 export const environment = {
   version: require('../../package.json').version,
   production: false,
-  useMockService: false
+  useMockService: false,
+  apiURL: ''
 };
